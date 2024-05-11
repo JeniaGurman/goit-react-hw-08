@@ -1,43 +1,43 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 375px;
-    min-height: 250px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 10px;
-    box-shadow: 1px 1px 20px rgb(168, 165, 165);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 375px;
+  min-height: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 1px 1px 20px rgb(168, 165, 165);
 }
 
 .label {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .input {
-    width: 340px;
-    height: 25px;
-    padding-left: 5px;
+  width: 340px;
+  height: 25px;
+  padding-left: 5px;
 }
 
 .error {
-    color: red;
+  color: red;
 }
 
 .btn {
-    width: 150px;
-    font-size: 17px;
-    background-color: rgba(24, 6, 140, 0.783);
-    color: white;
-    padding: 8px;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border-radius: 5px;
-    transition: background-color 0.2s ease-in-out;
+  width: 150px;
+  font-size: 17px;
+  background-color: rgba(24, 6, 140, 0.783);
+  color: white;
+  padding: 8px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
-    background-color: rgba(56, 26, 250, 0.769);
+  background-color: rgba(56, 26, 250, 0.769);
 }
